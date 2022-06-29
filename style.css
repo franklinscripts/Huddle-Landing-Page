@@ -1,0 +1,499 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+img{
+    width: 100%;
+  
+}
+.navbar{
+    padding: .6em;
+    background: url("./images/bg-hero-desktop.svg"),hsl(193, 100%, 96%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+
+    margin:2em 4em
+}
+.logo{
+    width: 100px;
+}
+a{
+    text-decoration: none;
+}
+
+
+  
+.link a{
+    background-color: #ffffffec;
+    padding: 10px 26px;
+    border-radius: 5pc;
+    font-size: 12px;
+    color: rgb(73, 72, 72);
+
+}
+
+.link a:hover{
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(87, 87, 87, 0.096);
+    border:1px solid hsla(322, 100%, 66%, 0.808);
+
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.8em;
+}
+.hero-heading{
+    width: 350px;
+    padding-top: 3em;
+    font-size: 1.5em;
+    font-weight:550;
+    color: hsl(228, 63%, 18%);
+}
+.hero-p{
+    width: 500px;
+    font-size: 14px;
+    color: hsl(208, 11%, 55%);
+    padding-top: 1em;
+}
+h4{
+    color:hsl(228, 63%, 18%);
+    font-size: 18px;
+}
+.right img{
+    width: 500px;
+}
+.hero-button{
+    padding: 10px 30px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 5pc;
+    margin-top: 1.3em;
+    font-size: .8em;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.hero-button:hover{
+    opacity: .7;
+}
+
+
+
+
+/*Grow ME Section*/
+
+.grow-together{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.grow-left{
+
+    padding: 2em;
+}
+.grow-heading{
+    margin-top: 9em;
+    
+
+}
+.grow-p{
+    width: 430px;
+    font-size: 14px;
+    color: hsl(208, 11%, 55%);
+    padding-top: .9em;
+}
+.grow-right{}
+.grow-right img{
+    width: 400px;
+    margin-top: 4em;
+}
+.user-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.users-left{
+
+    padding: 2em;
+}
+.users-heading{
+    margin-top: 9em;
+    
+
+}
+.users-p{
+    width: 430px;
+    font-size: 14px;
+    color: hsl(208, 11%, 55%);
+    padding-top: .9em;
+}
+.users-right{}
+.users-right img{
+    width: 400px;
+    margin-top: 4em;
+}
+
+.flowing-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+.flow-right{
+
+    padding: 2em;
+}
+.flow-heading{
+    margin-top: 9em;
+    
+
+}
+.flow-p{
+    width: 430px;
+    font-size: 14px;
+    color: hsl(208, 11%, 55%);
+    padding-top: .9em;
+}
+.grow-right{}
+.flow-left img{
+    width: 400px;
+    margin-top: 4em;
+}
+
+.community-community{
+
+    text-align: center;
+    border: 1px solid hsl(193, 100%, 96%);
+    width: 550px;
+  border-radius: 3px;
+  box-shadow: 0 10px 15px rgba(41, 41, 41, 0.253);
+  background-color: hsl(0, 0%, 100%);
+ 
+}
+
+.community-community h2{
+    padding-top:2em;
+    padding-bottom: 12px;
+
+}
+.community-community button{
+    padding: 16px 35px;
+    margin-bottom: 20px;
+    border-radius: 5pc;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    background-color: hsl(322, 100%, 66%);
+    color: hsl(324, 11%, 91%);
+}
+footer{
+    margin-top: -3em;
+    background-color: hsl(192, 100%, 9%);
+    height: 100%;
+   z-index: -999;
+   padding: 2em;
+   position: relative;
+}
+
+footer p{
+    color: hsl(208, 11%, 55%);
+ 
+}
+
+
+.lol{
+    display: flex;
+    margin-top: 1em;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5em;
+    margin: 12px;
+}
+.imgs{
+    fill: #fff;
+    width:100px
+}
+.lol img{
+    width: 25px;
+  
+}
+ul li{
+    list-style-type: none;
+    font-size: 12px;
+    color: hsl(208, 11%, 55%);
+    padding-bottom: 12px;
+}
+.copy{
+    text-align: center;
+    padding-top: .9em;
+    font-size: 13px;
+}
+@media (max-width:768px) {
+    footer{
+        margin-top: -3em;
+        height: 100%;
+       z-index: -999;
+       padding: 2em;
+       text-align: left;
+       position: relative;
+    }
+    .lol{
+        display: block;
+    }
+    .attribution{
+        width: 100%;
+        font-size: 12px;
+    }
+    .copy p{
+        font-size: 12px;
+    }
+    .first p{
+        width: 200px;
+        padding-bottom: 18px;
+    }
+    footer p{
+        color: hsl(208, 11%, 55%);
+    }
+    
+    .foot img{
+        width: 100px;
+        fill:#fff;
+    }
+    .lol{
+        display: flex;
+
+    }
+    .lol p{
+        font-size: 15px;
+    }
+    .foot{
+       
+        padding-top: 5em;
+        margin: 15px;
+    }
+    .imgs{
+        fill: #fff;
+        width:100px
+    }
+    .lol img{
+        width: 25px;
+      
+    }
+    
+    .community-community{
+        width: 80%;
+    }
+    .community-community h2{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .community-community button{
+        padding: 10px 30px;
+    }
+    .nav{
+        margin: 8px 1.2em
+    }
+    .navbar{
+        background: url("./images/bg-hero-mobile.svg"),hsl(193, 100%, 96%);
+
+        
+    }
+    .foot{
+        display: block;
+    }
+    .hero-heading{
+        width: 290px;
+        font-weight: 600;
+        font-size: 1.3em;
+        padding-top: 2em;
+        margin: 0 auto;
+    }
+    .hero-p{
+       width: 80%;  
+       margin: 0 auto;
+       padding-bottom: .5em;
+       font-size: 12px;
+    }
+    
+    .hero-container{
+        text-align: center;
+
+    }
+    .hero-button{
+        margin-bottom: 1em;
+    }
+    .right img{
+        width: 300px;
+    }
+    .hero-container{
+    display: block;
+    }
+    section{
+        text-align: center;
+       
+    }
+    .bod{
+        border: 1px solid hsl(324, 11%, 91%);
+        border-radius: 10px;
+        margin: 2em;
+        padding-bottom: 1em;
+        box-shadow: 0 10px 15px rgba(119, 119, 119, 0.096);
+    }
+    .grow-right img{
+        width: 200px;
+    }
+    .grow-together{
+        display: block;
+        
+    }
+    .users-p{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+    .users-right img{
+        width: 200px;
+    }
+   
+    .flow-p{
+        width: 100%;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+    .flow-left img{
+        width: 200px;
+    }
+   
+    .flow-heading,
+    .grow-heading,
+    .users-heading{
+        margin-top: 2em;
+    }
+    .grow-p{
+        width: 100%;
+        font-size: 13px;
+        margin: 0 auto;
+    }
+    .user-container{
+        display: block;
+      
+    }
+    .flowing-container{
+        display: block;
+        
+    }
+    .copy p{
+        text-align: center;
+        background-color: hsl(228, 45%, 44%);
+        width: 100%;
+        margin: .8em;
+        color: hsl(230, 13%, 82%);
+        border-radius: 3px;
+        padding: .8em;
+    }
+}
+/*@media (min-width: 1000px) {
+    
+    .nav{
+        margin: 8px 1.2em
+    }
+    .hero-heading{
+        width: 400px;
+        font-weight: 600;
+        font-size: 1.7em;
+        padding-top: 2em;
+        margin: 0 auto;
+    }
+    .hero-p{
+       max-width: 500px;  
+       margin: 0 auto;
+       padding-bottom: .5em;
+       font-size: 14px;
+    }
+    
+    .hero-container{
+        text-align: center;
+
+    }
+    .hero-button{
+        margin-bottom: 1em;
+        padding: 18px 40px;
+        font-size: 14px;
+    }
+
+    .right img{
+        width: 450px;
+    }
+    .hero-container{
+    display: block;
+    }
+    section{
+        text-align: center;
+       
+    }
+    .bod{
+        border: 1px solid hsl(324, 11%, 91%);
+        border-radius: 10px;
+        margin: 4em;
+        padding-bottom: 1em;
+        box-shadow: 0 10px 15px rgba(119, 119, 119, 0.096);
+    }
+    .grow-right img{
+        width: 400px;
+    }
+    .grow-together{
+        display: block;
+        
+    }
+    .users-p{
+        width: 450px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .users-right img{
+        width: 400px;
+    }
+   
+    .flow-p{
+        width: 450px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .flow-left img{
+        width: 400px;
+    }
+   
+    .grow-p{
+        width: 450px;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+    .user-container{
+        display: block;
+      
+    }
+    .flowing-container{
+        display: block;
+        
+    }
+}*/
